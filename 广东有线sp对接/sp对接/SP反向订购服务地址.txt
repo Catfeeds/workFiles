@@ -1,0 +1,24 @@
+1、SP反向订购服务地址： 
+商用局：反向同步订购关系
+http://172.16.145.199:9007/services/sp   小网
+http://103.27.24.36:9007/services/sp     公网
+测试局：反向同步订购关系
+http://10.207.151.17:9007/services/sp     内网
+http://103.27.24.122:9007/services/sp     公网
+
+
+
+2、童锁验证地址：
+测试
+http://103.27.24.123:8080/sdpportal/childLockAction_childlock.action 公网
+http://10.207.151.23:8080/sdpportal/childLockAction_childlock.action 内网
+商用
+http://103.27.24.34:8080/sdpportal/childLockAction_childlock.action
+http://172.16.145.197:8080/sdpportal/childLockAction_childlock.action
+
+
+3、在线支付地址：
+测试局
+http://10.207.151.23:8080/sdpportal/feePayAction_feePay.action
+商用局
+http://172.16.145.197:8080/sdpportal/feePayAction_feePay.action
